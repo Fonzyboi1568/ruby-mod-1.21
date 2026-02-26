@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "rubymod",
+	"version": "${version}",
+	"name": "Ruby mod",
+	"description": "This is the Ruby mod, Fonzy's introduction to mc modding.",
+	"authors": [
+		"Fonzyboi1568"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/rubymod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.fonzy.rubymod.RubyMod"
+		],
+		"fabric-datagen": [
+			"net.fonzy.rubymod.RubyModDataGenerator"
+		],
+		"client": [
+			"net.fonzy.rubymod.RubyModClient"
+		]
+	},
+	"mixins": [
+		"rubymod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
