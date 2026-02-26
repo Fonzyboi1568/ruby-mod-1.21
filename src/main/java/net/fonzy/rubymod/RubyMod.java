@@ -1,6 +1,7 @@
 package net.fonzy.rubymod;
 
 import net.fabricmc.api.ModInitializer;
+import net.fonzy.rubymod.block.ModBlocks;
 import net.fonzy.rubymod.item.ModItems;
 
 import org.slf4j.Logger;
@@ -13,5 +14,6 @@ public class RubyMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
