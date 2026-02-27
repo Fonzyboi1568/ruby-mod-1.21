@@ -1,5 +1,9 @@
 {
     "item.rubymod.ruby": "Ruby",
     "item.rubymod.ruby_shard": "Ruby Shard",
-    "block.rubymod.ruby_block": "Block of Ruby"
+    "block.rubymod.ruby_block": "Block of Ruby",
+    "block.rubymod.ruby_crystal": "Ruby Crystal",
+
+    "itemgroup.rubymod.ruby_items": "Ruby Items",
+    "itemgroup.rubymod.ruby_blocks": "Ruby Blocks"
 }

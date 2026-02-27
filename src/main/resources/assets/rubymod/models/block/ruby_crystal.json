@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cross",
+    "textures": {
+        "cross": "rubymod:block/ruby_crystal"
+    }
+}
